@@ -22,6 +22,19 @@ overflow-x: hidden;
 
 
 /*mobile*/
+
+@media all and (orientation:portrait) {
+
+  .landscape {
+    display: none!important;
+  }
+
+  .portrait {
+    display:block!important;
+  }
+
+}
+
 @media only screen and (max-width: 812px) {
 
   .header-img {
@@ -64,6 +77,13 @@ overflow-x: hidden;
   z-index: 0;
 }
 
+.landscape {
+  display: block;
+}
+
+.portrait {
+  display:none;
+}
 
 .main {
   width: 100%;
