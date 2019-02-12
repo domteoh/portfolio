@@ -82,7 +82,7 @@ overflow-x: hidden;
 }
 
 .portrait {
-  display:none;
+  display: none;
 }
 
 .main {
@@ -112,8 +112,9 @@ overflow-x: hidden;
 }
 
 .about-text {
-  width: 49%;
-  padding: .7% 3% 2% 3%;
+  width: 60%;
+  margin: .7% 20% 2% 20%;
+  text-align: justify!important;
   vertical-align: middle;
   display: inline-block;
 }
