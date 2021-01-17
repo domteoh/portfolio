@@ -15,6 +15,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.width = "96%";
+  modalImg.style.height = "auto";
 }
 
 var img = document.getElementById("myImg-2");
@@ -22,6 +24,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.width = "96%";
+  modalImg.style.height = "auto";
 }
 
 var img = document.getElementById("myImg-3");
@@ -29,6 +33,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-4");
@@ -36,6 +42,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-5");
@@ -43,6 +51,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-6");
@@ -50,6 +60,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-7");
@@ -57,6 +69,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-8");
@@ -64,6 +78,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-9");
@@ -71,6 +87,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-10");
@@ -78,6 +96,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-11");
@@ -85,6 +105,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-12");
@@ -92,6 +114,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.height = "56%";
+  modalImg.style.width = "auto";
 }
 
 var img = document.getElementById("myImg-13");
@@ -99,6 +123,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.width = "96%";
+  modalImg.style.height = "auto";
 }
 
 var img = document.getElementById("myImg-14");
@@ -106,6 +132,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.width = "96%";
+  modalImg.style.height = "auto";
 }
 
 var img = document.getElementById("myImg-15");
@@ -113,6 +141,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  modalImg.style.width = "96%";
+  modalImg.style.height = "auto";
 }
 
 // Get the <span> element that closes the modal
