@@ -1,0 +1,381 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+width: 100%;
+overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+:-moz-any(#content,#appcontent) browser{
+ margin-right:-17px!important;
+ overflow-y:scroll;
+ margin-bottom:-17px!important;
+ overflow-x:scroll;
+}
+
+
+/*mobile*/
+
+@media all and (orientation:portrait) {
+
+  .thumbnail-box {
+    overflow-x: hidden!important;
+  }
+
+  .enlarged-portrait {
+    width: 100%!important;
+    height: auto!important;
+  }
+
+  .middle-panel {
+    display: inline-block;
+    width: 40%;
+    margin: auto!important;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 812px) {
+
+
+    .nav {
+      display: none;
+    }
+
+    #nav-mobile {
+      position: fixed!important;
+      width: 100%;
+      height: 52px;
+      padding-top: .75em;
+      background-color: white;
+      text-align: center;
+      z-index: 3;
+      overflow: hidden;
+      display: inline-block!important;
+    }
+
+    .nav-title {
+      display: inline-block!important;
+      position: fixed;
+      height: 30px;
+      top: 23px;
+      left: 8%;
+      font-family: Montserrat, helvetica, sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: left!important;
+    }
+
+    #nav-menu-mobile {
+      position: fixed;
+      width: 100%;
+      margin-top: 50px;
+      padding: 5% 30px 8% 1%;
+      text-align: right;
+      font-family: Montserrat, helvetica, sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 70px;
+      vertical-align: middle;
+      color: black;
+      background-color: white;
+      z-index: 2;
+    }
+
+    .thumbnail-box {
+      position: fixed;
+      bottom: 0;
+      right: 0!important;
+      width: 80vw!important;
+      height: 200px!important;
+      margin: auto!important;
+      overflow: scroll;
+      text-align: center!important;
+    }
+
+    .footer-fixed {
+      display: inline!important;
+      position: fixed!important;
+      bottom: 0!important;
+      background-color: white;
+    }
+
+    .icon {
+      margin: 20px;
+    }
+
+
+}
+
+
+
+.nav {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 10vw;
+  height: 95%;
+  font-family: Montserrat, helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.social-media {
+  position: fixed;
+  bottom: 5%;
+}
+
+#nav-mobile {
+  display: none;
+}
+
+.nav-title {
+  display: none;
+}
+
+#nav-menu-mobile {
+  display: none;
+}
+
+.thumbnail-box {
+  position: fixed;
+  right: 6%;
+  width: 20vw;
+  height: 85vh;
+  margin: 7vh 0;
+  overflow: scroll;
+  text-align: right;
+}
+
+.middle-panel {
+  display: inline-block;
+  width: 40%;
+  margin-left: 24vw;
+  text-align: center;
+}
+
+#image-1 {
+  display: block;
+  position: absolute;
+  top : 48%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  width: 40%;
+}
+
+#image-2 {
+  display: none;
+  position: absolute;
+  top : 48%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  width: 40%;
+}
+
+#image-3 {
+  display: none;
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  height: 85%;
+  width: auto;
+}
+
+#image-4 {
+  display: none;
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  height: 85%;
+  width: auto;
+}
+
+#image-5 {
+  display: none;
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  height: 85%;
+  width: auto;
+}
+
+#image-6 {
+  display: none;
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  height: 85%;
+  width: auto;
+}
+
+#image-7 {
+  display: none;
+  position: absolute;
+  top : 48%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  width: 40%;
+}
+
+#image-8 {
+  display: none;
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  height: 85%;
+  width: auto;
+}
+
+#image-9 {
+  display: none;
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  height: 85%;
+  width: auto;
+}
+
+#image-10 {
+  display: none;
+  position: absolute;
+  top : 48%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  width: 40%;
+}
+
+#image-11 {
+  display: none;
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  height: 85%;
+  width: auto;
+}
+
+#image-12 {
+  display: none;
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  height: 85%;
+  width: auto;
+}
+
+#image-13 {
+  display: none;
+  position: absolute;
+  top : 48%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  width: 40%;
+}
+
+#image-14 {
+  display: none;
+  position: absolute;
+  top : 48%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  width: 40%;
+}
+
+#image-15 {
+  display: none;
+  position: absolute;
+  top : 48%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  width: 40%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer-fixed {
+  display: none;
+}
+
+
+
+/*Image formatting*/
+
+.icon {
+  width: 20px;
+}
+
+.nav-icon {
+    display: inline-block;
+    position: fixed;
+    height: 30px;
+    width: auto;
+    top: 20px;
+    right: 8%;
+  }
+
+.thumbnail {
+  position: inline-block;
+  width: 200px;
+  margin: 0 5px 5px 5px;
+  cursor: pointer;
+}
+
+.enlarged-landscape {
+  width: 100%;
+}
+
+.enlarged-portrait {
+  height: 80vh;
+  width: auto;
+}
+
+/*Video formatting*/
+
+
+/*Text formatting*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h2 {
+  font-weight: inherit;
+  font-size: inherit;
+}
