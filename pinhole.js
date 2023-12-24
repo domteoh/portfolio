@@ -19,7 +19,7 @@ $('.nav-icon').click(function(){
       });
 
       var vrView = new VRView.Player('#vrview2', {
-        image: 'https://raw.githubusercontent.com/domteoh/domteoh/master/img/360_3.jpeg',
+        image: 'https://raw.githubusercontent.com/domteoh/portfolio/master/img/pinhole/360_2.jpeg',
         height: '100%'
       });
     }
