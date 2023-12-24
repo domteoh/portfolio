@@ -106,6 +106,12 @@ overflow-x: hidden;
     margin: 5% 15% 0 15%;
   }
 
+  #vrview1 {
+  }
+
+  #vrview2 {
+  }
+
   .about-content {
     display: inline-block!important;
     position: relative!important;
@@ -229,6 +235,14 @@ overflow-x: hidden;
 .VRcontainer3 {
   display: none;
   align: center;
+}
+
+#vrview1 {
+  height: 400px;
+}
+
+#vrview2 {
+  height: 400px;
 }
 
 .link-cursor {
