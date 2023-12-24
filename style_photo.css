@@ -165,39 +165,6 @@ overflow-x: hidden;
     width: 35%!important;
   }
 
-  #image-13 {
-    display: none;
-    position: absolute;
-    top : 50%;
-    left: 42%!important;
-    -ms-transform: translate(-50%, -50%);
-    transform    : translate(-50%, -50%);
-    width: 50%!important;
-    height: auto!important;
-  }
-
-  #image-14 {
-    display: none;
-    position: absolute;
-    top : 50%;
-    left: 42%!important;
-    -ms-transform: translate(-50%, -50%);
-    transform    : translate(-50%, -50%);
-    width: 50%!important;
-    height: auto!important;
-  }
-
-  #image-15 {
-    display: none;
-    position: absolute;
-    top : 50%;
-    left: 42%!important;
-    -ms-transform: translate(-50%, -50%);
-    transform    : translate(-50%, -50%);
-    width: 50%!important;
-    height: auto!important;
-  }
-
   .enlarged-landscape {
     width: 100%;
   }
@@ -278,7 +245,7 @@ overflow-x: hidden;
     }
 
     /* Modal-vertical */
-    #myImg-2, #myImg-3, #myImg-5, #myImg-6, #myImg-8, #myImg-9, #myImg-11, #myImg-12, #myImg-14, #myImg-15 {
+    #myImg-2, #myImg-3, #myImg-4, #myImg-5, #myImg-7, #myImg-8, #myImg-9, #myImg-10 {
       transition: 0.3s;
       position: inline-block;
       height: auto!important;
@@ -289,7 +256,7 @@ overflow-x: hidden;
     }
 
     /* Modal-horizontal */
-    #myImg-1, #myImg-4, #myImg-7, #myImg-10, #myImg-13 {
+    #myImg-1, #myImg-6, #myImg-11, #myImg-12 {
       transition: 0.3s;
       position: inline-block!important;
       height: auto!important;
@@ -406,11 +373,12 @@ overflow-x: hidden;
 #image-2 {
   display: none;
   position: absolute;
-  top : 48%;
+  top : 50%;
   left: 45%;
   -ms-transform: translate(-50%, -50%);
   transform    : translate(-50%, -50%);
-  width: 40%;
+  height: 85%;
+  width: auto;
 }
 
 #image-3 {
@@ -449,22 +417,22 @@ overflow-x: hidden;
 #image-6 {
   display: none;
   position: absolute;
+  top : 48%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+  width: 40%;
+}
+
+#image-7 {
+  display: none;
+  position: absolute;
   top : 50%;
   left: 45%;
   -ms-transform: translate(-50%, -50%);
   transform    : translate(-50%, -50%);
   height: 85%;
   width: auto;
-}
-
-#image-7 {
-  display: none;
-  position: absolute;
-  top : 48%;
-  left: 45%;
-  -ms-transform: translate(-50%, -50%);
-  transform    : translate(-50%, -50%);
-  width: 40%;
 }
 
 #image-8 {
@@ -492,56 +460,25 @@ overflow-x: hidden;
 #image-10 {
   display: none;
   position: absolute;
-  top : 48%;
+  top : 50%;
   left: 45%;
   -ms-transform: translate(-50%, -50%);
   transform    : translate(-50%, -50%);
-  width: 40%;
+  height: 85%;
+  width: auto;
 }
 
 #image-11 {
   display: none;
   position: absolute;
-  top : 50%;
+  top : 48%;
   left: 45%;
   -ms-transform: translate(-50%, -50%);
   transform    : translate(-50%, -50%);
-  height: 85%;
-  width: auto;
+  width: 40%;
 }
 
 #image-12 {
-  display: none;
-  position: absolute;
-  top : 50%;
-  left: 45%;
-  -ms-transform: translate(-50%, -50%);
-  transform    : translate(-50%, -50%);
-  height: 85%;
-  width: auto;
-}
-
-#image-13 {
-  display: none;
-  position: absolute;
-  top : 48%;
-  left: 45%;
-  -ms-transform: translate(-50%, -50%);
-  transform    : translate(-50%, -50%);
-  width: 40%;
-}
-
-#image-14 {
-  display: none;
-  position: absolute;
-  top : 48%;
-  left: 45%;
-  -ms-transform: translate(-50%, -50%);
-  transform    : translate(-50%, -50%);
-  width: 40%;
-}
-
-#image-15 {
   display: none;
   position: absolute;
   top : 48%;
