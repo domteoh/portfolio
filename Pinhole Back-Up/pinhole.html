@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Dominique Teoh | 360 Pinhole</title>
+
+  <link rel = "stylesheet" type = "text/css" href = "./style_pinhole.css"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="img/icons/favicon-96x96.png" sizes="96x96">
+
+  <meta name="description" content="An online portfolio of video, photo and other digital works."/>
+
+  <meta property="og:title" content="Dominique Teoh | Portfolio">
+  <meta property="og:description" content="An online portfolio of video, photo and other digital works.">
+  <meta property="og:image" content="img/socialmeta.jpg">
+  <meta property="og:url" content="domteoh.com">
+  <meta name="twitter:card" content="img/socialmeta.jpg">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class=nav>
+
+      <h2 class=nav-item><a href="index.html">reel</h2></a>
+      <h2 class=nav-item><a href="photo.html">photo</h2></a>
+      <h2 class=nav-item><a href="pinhole.html">360 pinhole</h2></a>
+      <h2 class=nav-item><a href="about.html">about</h2></a>
+
+      <div class=social-media>
+      <a href="https://www.instagram.com/domteoh/" target="_blank"><img class=icon src="img/icons/instagram.png" alt="instagram"></a><br>
+      <a href="https://www.youtube.com/channel/UCDWLAE-VD7Ng51czxLKWALw?" target="_blank"><img class=icon src="img/icons/youtube.png" alt="youtube"></a><br>
+      <a href="https://vimeo.com/user23536477" target="_blank"><img class=icon src="img/icons/vimeo.png" alt="vimeo"></a>
+      </div>
+
+    </div>
+
+    <div id=nav-mobile>
+      <h2 class=nav-title>about</h2>
+      <img class=nav-icon src="img/icons/navicon.png" alt="logo">
+    </div>
+
+    <div id=nav-menu-mobile>
+      <ul>
+        <li><a href="index.html">reel</a></li>
+        <li><a href="photo.html">photo</a></li>
+        <li><a href="pinhole.html">360 pinhole</a></li>
+        <li><a href="about.html">about</a></li>
+      </ul>
+    </div>
+
+    <div class=footer-fixed>
+      <h6 align=center>
+        <a href="https://www.instagram.com/domteoh/" target="_blank"><img class=icon src="img/icons/instagram.png" alt="instagram"></a>&nbsp; &nbsp;&nbsp; &nbsp;
+        <a href="https://www.youtube.com/channel/UCDWLAE-VD7Ng51czxLKWALw" target="_blank"><img class=icon src="img/icons/youtube.png" alt="youtube"></a>&nbsp; &nbsp;&nbsp; &nbsp;
+        <a href="https://vimeo.com/user23536477" target="_blank"><img class=icon src="img/icons/vimeo.png" alt="vimeo"></a>
+      </h6>
+    </div>
+
+    <div class=main>
+
+      <div class=pinhole>
+
+          <div class = VRcontainer1>
+              <div id='vrview1'></div>
+          </div>
+
+          <div class = VRcontainer2>
+              <div id='vrview2'></div>
+          </div>
+
+      </div>
+
+      <div class=pinhole-mobile>
+
+          <div class = VRcontainer1>
+              <div id='vrview1'></div>
+          </div>
+          
+          <div class = VRcontainer2>
+              <div id='vrview2'></div>
+          </div>
+
+      </div>
+
+      <div class = pinhole-selector align = center>
+          <p class="image1 link-cursor">o</p> &nbsp; &nbsp;
+          <p class="image2 link-cursor">o</p>
+      </div>
+
+    </div>
+
+    <div class=about-content>
+
+      <p>Combining pinhole photography and 360 digital imaging ——
+        <br><br>Wide angle photographs were captured using an empty soup can. The photographs were later scanned and stitched digitally into 360 images.
+      </p>
+
+    </div>
+
+
+    <script
+       src="https://code.jquery.com/jquery-3.2.1.min.js"
+       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+       crossorigin="anonymous"></script>
+
+       <script src="pinhole.js"></script>
+
+       <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+
+</body>
+
+</html>
