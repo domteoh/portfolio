@@ -27,7 +27,7 @@ overflow-x: hidden;
 
 }
 
-@media only screen and (min-width: 766px) and (max-width: 1024px) {
+@media only screen and (min-width: 940px) and (max-width: 1024px) {
 
   .thumbnail-box {
     overflow-x: hidden!important;
@@ -176,7 +176,7 @@ overflow-x: hidden;
 
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 940px) {
 
 
     .nav {
