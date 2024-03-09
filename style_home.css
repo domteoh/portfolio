@@ -97,6 +97,16 @@ overflow-x: hidden;
 }
 
 
+@media only screen and (min-width: 2100px) {
+
+  .home-content {
+    width: 1280px!important;
+    top : 48%;
+    left: 50%!important;
+  }
+
+}
+
 
 .nav {
   position: absolute;
@@ -133,11 +143,11 @@ overflow-x: hidden;
 }
 
 .home-content {
-  width: 500px;
+  width: 600px;
   margin: auto;
   position: absolute;
-  top : 47%;
-  left: 50%;
+  top : 48%;
+  left: 49%;
   -ms-transform: translate(-50%, -50%);
   transform    : translate(-50%, -50%);
 }

@@ -111,10 +111,12 @@ overflow-x: hidden;
     text-align: justify;
   }
 
-
 }
 
 
+@media only screen and (min-width: 2100px) {
+
+}
 
 .nav {
   position: absolute;

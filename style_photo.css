@@ -305,6 +305,20 @@ overflow-x: hidden;
       margin: 15px;
     }
 
+}
+
+@media only screen and (min-width: 2100px) {
+
+  .thumbnail-box {
+    width: 10vw!important;
+  }
+
+  .thumbnail {
+    position: inline-block;
+    width: 100%!important;
+    margin: 0 0 5px 0!important;
+    cursor: pointer;
+  }
 
 }
 
