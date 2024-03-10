@@ -116,6 +116,16 @@ overflow-x: hidden;
 
 @media only screen and (min-width: 2100px) {
 
+  .main {
+    width: 950px!important;
+    top : 46%;
+    left: 50%;
+  }
+
+  .about-content {
+    width: 950px!important;
+  }
+
 }
 
 .nav {
@@ -150,7 +160,7 @@ overflow-x: hidden;
 .main {
   display: inline;
   position: absolute;
-  width: 719px;
+  width: 500px;
   top : 46%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -186,9 +196,9 @@ overflow-x: hidden;
 
 .about-photo {
     display: inline-block;
-    height: 272.8px;
+    height: 400px;
     width: auto;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 
 .about-photo-mobile {
