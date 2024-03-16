@@ -129,6 +129,20 @@ overflow-x: hidden;
 
 }
 
+
+@media only screen and (min-width: 1550px) {
+
+  .header {
+    height: 30vh!important;
+  }
+
+  .home-container {
+    top: 30vh!important;
+  }
+
+}
+
+
 .header {
   position: fixed;
   top: 20px;
