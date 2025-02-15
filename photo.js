@@ -42,8 +42,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  modalImg.style.height = "56%";
-  modalImg.style.width = "auto";
+  modalImg.style.width = "96%";
+  modalImg.style.height = "auto";
 }
 
 var img = document.getElementById("myImg-5");
@@ -69,8 +69,8 @@ var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  modalImg.style.height = "56%";
-  modalImg.style.width = "auto";
+  modalImg.style.width = "96%";
+  modalImg.style.height = "auto";
 }
 
 var img = document.getElementById("myImg-8");
@@ -80,6 +80,24 @@ img.onclick = function(){
   modalImg.src = this.src;
   modalImg.style.height = "54%";
   modalImg.style.width = "auto";
+}
+
+var img = document.getElementById("myImg-9");
+var modalImg = document.getElementById("img01");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.style.height = "54%";
+  modalImg.style.width = "auto";
+}
+
+var img = document.getElementById("myImg-10");
+var modalImg = document.getElementById("img01");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.style.width = "96%";
+  modalImg.style.height = "auto";
 }
 
 var img = document.getElementById("myImg-11");
@@ -118,6 +136,8 @@ span.onclick = function() {
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-7").style.display = "none";
     document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-11").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
@@ -131,6 +151,8 @@ span.onclick = function() {
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-7").style.display = "none";
     document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-11").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
@@ -144,6 +166,8 @@ span.onclick = function() {
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-7").style.display = "none";
     document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-11").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
@@ -157,6 +181,8 @@ span.onclick = function() {
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-7").style.display = "none";
     document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-11").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
@@ -170,6 +196,8 @@ span.onclick = function() {
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-7").style.display = "none";
     document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-11").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
@@ -183,6 +211,8 @@ span.onclick = function() {
     document.getElementById("image-1").style.display = "none";
     document.getElementById("image-7").style.display = "none";
     document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-11").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
@@ -196,25 +226,60 @@ span.onclick = function() {
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-1").style.display = "none";
     document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-11").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
 
   function div8() {
     document.getElementById("image-8").style.display = "block";
+    document.getElementById("image-1").style.display = "none";
     document.getElementById("image-2").style.display = "none";
     document.getElementById("image-3").style.display = "none";
     document.getElementById("image-4").style.display = "none";
     document.getElementById("image-5").style.display = "none";
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-7").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
+    document.getElementById("image-11").style.display = "none";
+    document.getElementById("image-12").style.display = "none";
+  }
+
+  function div9() {
+    document.getElementById("image-9").style.display = "block";
     document.getElementById("image-1").style.display = "none";
+    document.getElementById("image-2").style.display = "none";
+    document.getElementById("image-3").style.display = "none";
+    document.getElementById("image-4").style.display = "none";
+    document.getElementById("image-5").style.display = "none";
+    document.getElementById("image-6").style.display = "none";
+    document.getElementById("image-7").style.display = "none";
+    document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
+    document.getElementById("image-11").style.display = "none";
+    document.getElementById("image-12").style.display = "none";
+  }
+
+  function div10() {
+    document.getElementById("image-10").style.display = "block";
+    document.getElementById("image-1").style.display = "none";
+    document.getElementById("image-2").style.display = "none";
+    document.getElementById("image-3").style.display = "none";
+    document.getElementById("image-4").style.display = "none";
+    document.getElementById("image-5").style.display = "none";
+    document.getElementById("image-6").style.display = "none";
+    document.getElementById("image-7").style.display = "none";
+    document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
     document.getElementById("image-11").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
 
   function div11() {
     document.getElementById("image-11").style.display = "block";
+    document.getElementById("image-1").style.display = "none";
     document.getElementById("image-2").style.display = "none";
     document.getElementById("image-3").style.display = "none";
     document.getElementById("image-4").style.display = "none";
@@ -222,12 +287,14 @@ span.onclick = function() {
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-7").style.display = "none";
     document.getElementById("image-8").style.display = "none";
-    document.getElementById("image-1").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-12").style.display = "none";
   }
 
   function div12() {
     document.getElementById("image-12").style.display = "block";
+    document.getElementById("image-1").style.display = "none";
     document.getElementById("image-2").style.display = "none";
     document.getElementById("image-3").style.display = "none";
     document.getElementById("image-4").style.display = "none";
@@ -235,6 +302,7 @@ span.onclick = function() {
     document.getElementById("image-6").style.display = "none";
     document.getElementById("image-7").style.display = "none";
     document.getElementById("image-8").style.display = "none";
+    document.getElementById("image-9").style.display = "none";
+    document.getElementById("image-10").style.display = "none";
     document.getElementById("image-11").style.display = "none";
-    document.getElementById("image-1").style.display = "none";
   }
