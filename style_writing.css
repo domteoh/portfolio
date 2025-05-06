@@ -66,7 +66,7 @@ overflow-x: hidden;
     font-family: Montserrat, helvetica, sans-serif;
     font-weight: 600;
     font-size: 16px;
-    line-height: 70px;
+    line-height: 50px;
     vertical-align: middle;
     color: black;
     background-color: white;
@@ -89,6 +89,7 @@ overflow-x: hidden;
     width: auto!important;
     height: auto;
     margin-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
   }
 
@@ -216,7 +217,7 @@ a {
 
 .excerpt {
   font-family: Montserrat, helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
@@ -227,6 +228,7 @@ h1 {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 5px;
+  text-align: left!important;
 }
 
 h2 {
