@@ -5,7 +5,6 @@ border: 0;
 box-sizing: border-box;
 width: 100%;
 overflow-x: hidden;
-background-color: #f2f2f0;
 }
 
 ::-webkit-scrollbar {
