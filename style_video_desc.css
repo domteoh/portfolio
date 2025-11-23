@@ -77,27 +77,23 @@ overflow-x: hidden;
     display: inline-block!important;
     position: relative!important;
     width: 84%!important;
-    margin: 58px 8% 25% 8%;
+    margin: 58px 8% 20% 8%;
     top : 0!important;
     left: 0!important;
     -ms-transform: translate(0, 0)!important;
     transform    : translate(0, 0)!important;
   }
 
-  .thumbnail {
-    display: inline-block;
-    width: 100%!important;
-    height: auto;
-    margin: 0 0 3% 0!important;
-    vertical-align: middle;
+  .video {
+    margin-top: 5%;
   }
 
-  .thumbnail-v {
-    display: inline-block;
-    width: 80%!important;
-    height: auto;
-    margin: 0 3% 3% 3%!important;
-    vertical-align: middle;
+  .role {
+    text-align: left!important;
+  }
+
+  h1 {
+    text-align: left!important;
   }
 
   .footer-fixed {
@@ -110,18 +106,6 @@ overflow-x: hidden;
 
   .icon {
     margin: 15px;
-  }
-
-
-}
-
-
-@media only screen and (min-width: 2100px) {
-
-  .main {
-    width: 950px!important;
-    top : 46%;
-    left: 50%;
   }
 
 
@@ -159,35 +143,23 @@ overflow-x: hidden;
 .main {
   display: inline;
   position: absolute;
-  overflow: scroll;
-  width: 60%;
-  height: 90%;
-  top : 50%;
-  left: 53%;
+  width: 40%;
+  top : 47%;
+  left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform    : translate(-50%, -50%);
-  text-align: center;
+  overflow: scroll;
 }
 
-.section-header {
-  width: 100%!important;
-  height: auto;
-}
-
-.thumbnail {
+.video {
   display: inline-block;
-  width: 35%;
+  width: 100%;
   height: auto;
-  margin: 0 3%;
-  vertical-align: middle;
 }
 
-.thumbnail-v {
-  display: inline-block;
-  width: 20%;
-  height: auto;
-  margin: 0 3%;
-  vertical-align: middle;
+.description {
+  display: block;
+  text-align: justify;
 }
 
 .footer-fixed {
@@ -211,11 +183,20 @@ overflow-x: hidden;
     right: 8%;
   }
 
-  /*Video formatting*/
 
-  .youtube {
-    position: relative;
-  }
+/*Video formatting*/
+
+.youtube {
+  padding: 53% 0 0 0;
+  position: relative;
+}
+
+.instagram-container {
+  position: relative;
+  display: inline-block;
+  height: 20%;
+  width: auto;
+}
 
 
 /*Text formatting*/
@@ -225,17 +206,23 @@ a {
   text-decoration: inherit;
 }
 
-.excerpt {
+p {
   font-family: Montserrat, helvetica, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 25px;
+}
+
+.role {
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
 }
 
 h1 {
   font-family: Montserrat, helvetica, sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
   margin-bottom: 5px;
   text-align: center;
@@ -244,11 +231,4 @@ h1 {
 h2 {
   font-weight: inherit;
   font-size: inherit;
-}
-
-h3 {
-  font-family: Montserrat, helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  text-align: right;
 }
