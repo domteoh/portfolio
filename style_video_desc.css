@@ -51,7 +51,7 @@ overflow-x: hidden;
     height: 30px;
     top: 18px;
     left: 8%;
-    font-family: Montserrat, helvetica, sans-serif;
+    font-family: "Montserrat", helvetica, sans-serif;
     font-weight: 600;
     font-size: 20px;
     text-align: left!important;
@@ -63,7 +63,7 @@ overflow-x: hidden;
     margin-top: 50px;
     padding: 5% 30px 8% 1%;
     text-align: right;
-    font-family: Montserrat, helvetica, sans-serif;
+    font-family: "Montserrat", helvetica, sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 50px;
@@ -95,7 +95,6 @@ overflow-x: hidden;
 
   .content-box {
     width: 96%!important;
-    margin: 0 2%;
   }
 
   .content-box .content-img {
@@ -109,7 +108,7 @@ overflow-x: hidden;
     margin: 2px 0 10% 0!important;
     display: inline-block;
     vertical-align: top;
-    text-align: center!important;
+    text-align: left!important;
   }
 
   .role {
@@ -190,23 +189,23 @@ overflow-x: hidden;
 }
 
 .content-box {
-  width: 100%;
+  width: 20%!important;
   display: inline;
   margin-top: 3%;
   margin-bottom: 5%;
 }
 
-.content-box .content-img {
+.content-img {
   width: 40%!important;
   display: inline;
 }
 
 .content-box .content-text {
   width: 40%;
-  margin: 2px 0 2px 2%;
+  margin: 0 0 2px 2%;
   display: inline;
   vertical-align: top;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-fixed {
@@ -285,7 +284,7 @@ h4 {
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .h3-category-tag {
@@ -294,7 +293,7 @@ h4 {
   font-size: 10px;
   font-weight: 600!important;
   line-height: 20px;
-  margin: 8px 0 10px 0;
+  margin: 0 0 20px 0;
   color: #f8f8f8;
   background-color: #222021;
   text-align: center;

@@ -77,27 +77,30 @@ overflow-x: hidden;
     display: inline-block!important;
     position: relative!important;
     width: 84%!important;
-    margin: 58px 8% 25% 8%;
+    margin: 58px 8% 25% 8%!important;
     top : 0!important;
     left: 0!important;
     -ms-transform: translate(0, 0)!important;
     transform    : translate(0, 0)!important;
   }
 
-  .thumbnail {
-    display: inline-block;
+  .article-box {
     width: 100%!important;
-    height: auto;
-    margin: 0 0 3% 0!important;
-    vertical-align: middle;
   }
 
-  .thumbnail-v {
-    display: inline-block;
-    width: 80%!important;
+  .article-photo {
+    display: block!important;
+    width: auto!important;
     height: auto;
-    margin: 0 3% 3% 3%!important;
-    vertical-align: middle;
+    margin-top: 4%;
+    padding-bottom: 2%;
+    text-align: center;
+  }
+
+  .article-text {
+    display: block!important;
+    width: auto!important;
+    margin: 0 0 0 0!important;
   }
 
   .footer-fixed {
@@ -128,7 +131,7 @@ overflow-x: hidden;
 }
 
 .nav {
-  position: absolute;
+  position: fixed;
   top: 5%;
   left: 5%;
   width: 20vw;
@@ -160,34 +163,32 @@ overflow-x: hidden;
   display: inline;
   position: absolute;
   overflow: scroll;
-  width: 60%;
-  height: 90%;
-  top : 50%;
+  width: 50%;
   left: 53%;
-  -ms-transform: translate(-50%, -50%);
-  transform    : translate(-50%, -50%);
+  -ms-transform: translate(-50%, 0);
+  transform    : translate(-50%, 0);
+  margin-top: 3%;
+}
+
+.article-box {
+  display: inline-block;
+  width: 800px;
   text-align: center;
 }
 
-.section-header {
-  width: 100%!important;
-  height: auto;
-}
-
-.thumbnail {
+.article-photo {
   display: inline-block;
-  width: 35%;
+  width: 40%;
   height: auto;
-  margin: 0 3%;
   vertical-align: middle;
 }
 
-.thumbnail-v {
+.article-text {
   display: inline-block;
-  width: 20%;
-  height: auto;
-  margin: 0 3%;
+  width: 40%;
+  margin: 0 0 2% 2%;
   vertical-align: middle;
+  text-align: left;
 }
 
 .footer-fixed {
@@ -211,11 +212,7 @@ overflow-x: hidden;
     right: 8%;
   }
 
-  /*Video formatting*/
-
-  .youtube {
-    position: relative;
-  }
+/*Video formatting*/
 
 
 /*Text formatting*/
@@ -238,7 +235,7 @@ h1 {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 5px;
-  text-align: center;
+  text-align: left!important;
 }
 
 h2 {
